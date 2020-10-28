@@ -5,9 +5,9 @@ import Editor from './Editor'
 
 function App() {
 
-  const [html, setHtml] = useState('<h1>Hello</h1>')
+  const [html, setHtml] = useState('<h1>Welcome !!</h1>')
   const [css, setCss] = useState('body{background-color:wheat;}')
-  const [js, setJs] = useState('document.body.style.color = "white"', '')
+  const [js, setJs] = useState('document.body.style.color = "black"', '')
   const [srcDoc, setSrcDoc] = useState('')
 
   useEffect(() => {

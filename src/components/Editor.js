@@ -35,10 +35,11 @@ export default function Editor(props) {
                 className="code-mirror-wrapper"
                 options={{
                     lineWrapping: true,
+                    theme: 'material',
                     lint: true,
                     mode: language,
                     lineNumbers: true,
-                    theme: 'material'
+
                 }}
             />
 
